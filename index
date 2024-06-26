@@ -1,0 +1,73 @@
+---
+layout: default
+title: Home
+---
+
+
+<br>
+
+
+<div class="bd-callout bd-callout-info">
+    <h5 id="mission">Mission.</h5>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <p>We aim to inspire and advance the careers of talented young Brazilian scientists interested in the fields of biological and biomedical sciences. Our goal is to enhance scientific education in Brazil and cultivate a generation of competitive scientific leaders dedicated to improving society.</p>
+</div>
+
+
+<div class="bd-callout bd-callout-warning">
+    <h5 id="vision">Vision.</h5>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <p>By supporting and training young talented scientists, we aim to reduce opportunity and achievement gaps in Brazil, and nurture the next generation of science leaders for the improvement of our societies and local communities.</p>
+</div>
+
+
+<div class="bd-callout bd-callout-danger">
+    <h5 id="potential">Unlocking potential.</h5>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <p>We foster the development of aspiring scientists through a two-pronged approach; the <a href="{{ site.url }}{{ site.baseurl }}/about" class="badge badge-light">Mentorship Program</a> targeting personal growth and career progression, and the <a href="{{ site.url }}{{ site.baseurl }}/about" class="badge badge-light">Proxima Symposium</a> for vibrant dialogue and collaboration between trainees and established scientists. This strategic effort unlocks the students' potential, creating pathways for them to become tomorrow's leading innovators in science.</p>
+</div>
+
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Be part of the Change.</h4>
+  <!-- <hr> -->
+  <br>
+  <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <br>
+  <p class="mb-0">We invite you to join us as a sponsor for our umbrella programs, including the <a href="{{ site.url }}{{ site.baseurl }}/about" class="badge badge-light">Mentorship Program</a> and the <a href="{{ site.url }}{{ site.baseurl }}/about" class="badge badge-light">Proxima Symposium</a>.</p>
+  <br>
+  <p>
+    <a href="{{ site.url }}{{ site.baseurl }}/support" class="btn btn-outline-danger" role="button" aria-pressed="true">Learn how you can support us.</a>
+  </p>
+</div>
+
+
+<!-- Posts Index
+================================================== -->
+<!-- <div class="blog-grid-container">
+    {% for post in paginator.posts %}
+        {% include postbox.html %}
+    {% endfor %}
+</div> -->
+
+<!-- Pagination
+================================================== -->
+<!-- <div class="bottompagination">
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div> -->
